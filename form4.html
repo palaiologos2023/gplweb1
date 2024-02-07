@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Μισθοδοσία Υπαλλήλου - radio  </title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <style>
+        #apodx {
+            background-color: aqua;
+            font-weight: bold;
+        }
+    </style>
+   
+    <body>
+      <form>
+           Ονοματεπώνυμο Υπαλλήλου <input type ="text" size="30" name ="onomEpon" > <br>
+           Ωρες Εργασίας    <input  type ="text" size="3" name= "wrErg" id="wrErg" > <br>
+           Ωρομίσθιο         <input type ="text" size="5" name ="wm"  id="wm">  <br>
+           Έχει Οικογενιακό Επίδομα  <input type="checkbox" name="oik" id="oik" > <br>
+         
+          <h2> Επιλεξτε επίδομα εργασίας </h2>
+		   Διοικητικό Επίδομα  <input type="radio" name= "epidoma"  value="dioik">  <br>
+		   Επίδομα για εργασία σε εργοστάσιο  <input type="radio" name= "epidoma"  value="ergost"> <br>
+		   Επίδομα για Βαρέα & Ανθυγιεινα  <input type="radio" name= "epidoma"  value="varea">  <br>
+           
+          <br>
+         
+           <input type ="submit"  value="Καταχώρηση δεδομένων">
+      </form>
+
+    </body>
+    </html>

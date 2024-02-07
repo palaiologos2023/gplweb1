@@ -1,0 +1,31 @@
+
+p {
+	font-family: Courier;
+	font-size: 130%;r	
+}
+
+h1 {
+    text-align:center;
+    color:blue;
+    
+}
+
+ul{
+    list-style:circle;          
+}
+
+ol{
+    list-style:lower-greek;
+    font-weight:bolder;
+}
+.class1 {
+  background-color: yellow;
+}
+#id1
+
+{
+	// είναι στην σελιδα p02.html
+	border: 5px solid red;
+	//margin: 35px;
+	padding: 35px;
+}

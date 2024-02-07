@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Καταχωρηση στοιχείων μαθητων  </title>
+<meta charset="UTF-8">
+</head>
+<body > 
+  <form >
+    <label for="fname">  Ονομα </label> 
+  <input type="text" id="fname" name="fname"><br>
+  
+  <label for="lname">  Επίθετο :</label>
+  <input type="text" id="lname" name="lname"> <br>
+   <label for="address">  Διευθυνση  :</label>
+  <input type="text" id="address" name="address"> <br>
+  <label for="email">  email :</label>
+  <input type="email" id="email" name="email"> <br>
+  <label for="pword">  Κωδικος Ασφαλείας :</label>
+  <input type="password" id="pword" name="pword"> <br>
+ 
+<label for="grade">  Βαθμός  :</label>
+<input type="number" id="grade" name="grade" min="1" max ="20"> <br> <br>
+
+ <label for="class"> Επιλογή Τάξης:</label>
+
+<select id="class" name ="class">
+  <option value="Α">  Α' Τάξη</option>
+  <option value="Β">  Β' Τάξη</option>
+  <option value="Γ">  Γ' Τάξη</option>
+  
+</select>
+<p>
+Επιλογή Ειδικότητας 
+</p>
+<div>
+  <input type="radio" id="pliroforiki" name="eidikotita" value="ΠΛ">
+  <label for="pliroforiki">Πληροφορική </label> <br>
+  <input type="radio" id="oikonomias" name="eidikotita" value="ΟΔ">
+  <label for="oikonomiaw"> Οικονομίας & Διοίκισης </label> <br>
+  
+</div>
+<br> 
+<br>
+Ημερομηνία Γεννήσεως 
+<input type="date" name ="birthdate">
+<input type="submit" value="Αποστολή Δεδομένων ">
+</form>  
+
+
+</body>
+</html>
